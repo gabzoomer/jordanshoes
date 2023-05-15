@@ -1,0 +1,30 @@
+/* Ajutes do banner */
+.banner {
+    background-image: url("../assets/wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    padding: 104px 0px 113px 100px;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 637px;
+    /* margin-left: 100px; adicionado no paddin da .banner*/
+}
+
+h1 {
+    color: var(--white);
+    font-size: 48px;
+    line-height: 58.51px;
+    font-weight: 600;
+}
+
+.banner p {
+    color: var(--white);
+    font-size: 24px;
+    line-height: 38.4px;
+}
