@@ -1,0 +1,16 @@
+header p {
+    color: var(--white);
+    line-height: 19.5px;
+    background-color: var(--black-light);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    color: var(--black-light);
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0px;
+}
