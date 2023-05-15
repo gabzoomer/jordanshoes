@@ -19,3 +19,21 @@
     font-weight: 500;
     margin-bottom: 65px;
 }
+
+/* Formatação da lista de produtos exibidos */
+.produtos-lista {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produtos-lista__item {
+    background-color: var(--white-200);
+    padding: 76px 82px;
+}
+
+.produtos-lista__item img {
+    display: block;
+    max-width: 250px;
+}
