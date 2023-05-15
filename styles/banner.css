@@ -1,30 +1,36 @@
-/* Ajutes do banner */
 .banner {
+    color: var(--white);
+    padding: 104px 100px 113px;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
     background-image: url("../assets/wallpaper.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* filter: brightness(50%); */
-    padding: 104px 0px 113px 100px;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
 }
 
 .banner__container {
     display: flex;
     flex-direction: column;
     gap: 26px;
-    width: 637px;
-    /* margin-left: 100px; adicionado no paddin da .banner*/
+    max-width: 637px;
 }
 
 h1 {
-    color: var(--white);
     font-size: 48px;
     line-height: 58.51px;
     font-weight: 600;
+    isolation: isolate;
 }
 
 .banner p {
-    color: var(--white);
     font-size: 24px;
     line-height: 38.4px;
+    isolation: isolate;
 }
