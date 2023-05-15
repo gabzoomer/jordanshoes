@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    padding: 18px 0 20px;
+    background-color: var(--black-light);
+}
+
+footer p {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 21.94px;
+}
