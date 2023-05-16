@@ -16,7 +16,6 @@
     color: var(--gray);
     font-size: 20px;
     line-height: 24.38px;
-    font-weight: 500;
     margin-bottom: 65px;
 }
 
@@ -42,4 +41,42 @@
 .produtos-lista__item img:hover {
     transform: scale(1.3);
     filter: drop-shadow(0 0 0.75rem var(--black-light));
+}
+
+@media screen and (max-width: 650px) {
+    .destaques {
+        padding: 50px 20px;
+    }
+
+    /* Formatação das informações/avisos */
+    .destaques__infos h2 {
+        font-size: 28px;
+        line-height: 54.93px;
+        margin-bottom: 5px;
+    }
+
+    .destaques__infos p {
+        font-size: 16px;
+        line-height: 28.8px;
+        margin-bottom: 59px;
+    }
+
+    /* Formatação da lista de produtos exibidos */
+    .produtos-lista {
+        gap: 30px;
+    }
+
+    .produtos-lista__item {
+        padding: 76px 62px;
+    }
+
+    /* Desfazer os efeitos de hover no Mobile */
+    .produtos-lista__item img {
+        transition: none;
+    }
+
+    .produtos-lista__item img:hover {
+        transform: none;
+        filter: none;
+    }
 }
