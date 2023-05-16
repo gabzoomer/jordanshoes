@@ -9,3 +9,13 @@ footer p {
     font-size: 18px;
     line-height: 21.94px;
 }
+
+@media screen and (max-width: 650px) {
+    footer {
+        padding: 12px 0 13px;
+    }
+
+    footer p {
+        line-height: 35.31px;
+    }
+}
