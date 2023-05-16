@@ -34,3 +34,26 @@ h1 {
     line-height: 38.4px;
     isolation: isolate;
 }
+
+@media screen and (max-width: 650px) {
+    .banner {
+        padding: 122px 37px 122px 20px;
+    }
+
+    .banner__container {
+        gap: 12px;
+        max-width: 357px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34.13px;
+        font-weight: 700;
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 28.8px;
+        font-weight: 600;
+    }
+}
