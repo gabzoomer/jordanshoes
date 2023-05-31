@@ -13,7 +13,7 @@ Home page de um e-commerce de Sneakers desenvolvida como solução para o 2º de
 
 Você pode conferir a versão final executável do projeto clicando no link abaixo:
 
-### [Acesse o projeto](https://codelandia-02-jordanshoes.netlify.app/)
+### [Acesse o projeto](https://jordanshoes-home.netlify.app/)
 ## 🛠️ Abrir e rodar o projeto
 
 Para rodar o projeto na sua máquina, clone o repositório em um diretório local e execute o arquivo ``index.html`` em seu navegador.
